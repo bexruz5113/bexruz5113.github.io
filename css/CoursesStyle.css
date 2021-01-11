@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.siteNav{
+    background-color: transparent;
+}
+.siteNav-fixed{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: #343a40;
+    
+    box-shadow: 0 4px 10px 1px #888888;
+}
+.imgFluid{
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.747),rgba(32, 32, 32, 0.89)),url(../image/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.userImg{
+    width: 50px;
+    background-size: cover;
+
+}
+
+.win2{
+    transition: all 0.5s ease;
+}
+.imgScale{
+    transition: all 0.5s ease;
+}
+.win2:hover .imgScale{
+    transform: scale(1.2);
+    
+}
+.linkText{
+    transition: all 0.5s ease;
+}
+.win2:hover .linkText{
+    color: #ffc107;
+}
+.whiteHover{
+    transition: all 0.5s ease;
+    background-color: rgb(245, 243, 243);
+
+}
+.win2:hover .whiteHover{
+    background-color: #fff;
+}
+.win2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(77, 76, 76, 0.19);
+}
+
+.win3{
+    width: 100px;
+    padding: 5px 20px;
+    background-color: rgba(233, 220, 220, 0.459);
+    border: 1px solid white;
+
+}
+.win4{
+    width: 350px;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+.border1{
+    width: 100%;
+    padding: 5px;
+    border:0; 
+}
+.win5{
+    width: 330px;
+    padding: 20px;
+    border-radius: 5px;  
+    transition: all 0.5s ease;
+}
+.win5:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+.win8{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(112, 111, 111, 0.281);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+.win8:hover{
+    background-color: #ffc107;
+    color: #343a40;
+}
